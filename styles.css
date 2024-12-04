@@ -1,0 +1,99 @@
+:root {
+    --theem-color: rgb(5, 88, 136);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theem-color);
+    color: var(--theem-color);
+    height: 100vh;
+    
+}
+
+.quote-box {
+    margin: auto;
+    background-color: aliceblue;
+    width: 450px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    /* margin-bottom: 20px; */
+}
+
+.quote-text {
+    font-weight: 500;
+    font-size: 1.75em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.quote-text > i {
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#author {
+    text-align: right;
+}
+
+.quote-author {
+    text-align: right;
+    margin: 10px;
+    margin-bottom: 30px;
+    /* opacity: 1; */
+}
+
+.button {
+    display: flex;
+    background-color: var(--theem-color);
+    min-width: 40px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border-color: var(--theem-color);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin: 3px;
+}
+
+.buttons {
+    display: flex;
+    /* gap: 10px; */
+    color: #fff;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+#new-quote {
+    font-size: 0.85em;
+    padding: 5px;
+    height: 35px;
+    /* float: right; */
+    /* margin-right: 0px; */
+    margin-left: auto;
+    padding: 10px;
+    
+}
