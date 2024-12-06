@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500">
+    
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>FCC : Random Quote Machine</title>
 </head>
 <body>
     <div class="wrapper" id="wrapper"> 
-        <div class="quote-box">
+        <div class="quote-box" id="quote-box">
             <div class="quote-text">
-                <i class="fa fa-quote-left"></i><span id="text">You become what you believe.</span>
+                <i class="fa fa-quote-left"></i><span id="text"></span>
             </div><!-- .quote-text -->
             <div class="quote-author">
-                - <span id="author">Oprah Winfrey</span>
+                <span id="author"></span>
             </div><!-- .quote-author -->
             <div class="buttons">
-                <a class="button" id="tweet-quote" href="https://tweeter.com">
+                <a class="button" id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
                     <i class="fa fa-twitter"></i>
                 </a>
                 <a class="button" id="tumblr-quote" href="https://tumblr.com">
@@ -32,5 +33,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://code.jquery.com/color/jquery.color.js"></script>
     <script src="./script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 </html>
